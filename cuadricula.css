@@ -1,0 +1,27 @@
+.cuadro
+{
+    height: 90px;
+    width: 90px;
+    border: 10px solid red;
+    display: inline-block;
+    margin-left: 30px ;
+    
+}
+div.cuadro:last-child{
+    background-color: red;
+}
+
+
+div:first-of-type{
+    background-color: blue;
+}
+
+.cuadro:nth-of-type(1),.cuadro:nth-of-type(9),.cuadro:nth-of-type(45),.cuadro:nth-of-type(37){
+    background-color: darkgoldenrod;
+}
+
+.cuadro:
+{
+    background-color: crimson
+}
+
